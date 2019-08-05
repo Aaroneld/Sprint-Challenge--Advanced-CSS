@@ -1,1 +1,53 @@
 // Mixins Here
+
+.button(@bg-color: @ebony-clay; @width: 28%; @padding: 3% 4%; @color: white; @txt-algn: center; @fnt-size: 175%; @fnt-weight: bold;) {
+
+background-color: @bg-color;
+width: @width;
+padding: @padding;
+color: @color;
+text-align: @txt-algn;
+font-size: @fnt-size;
+font-weight: @fnt-weight;
+.border-radius();
+
+}
+
+.display-bg{
+
+    display: flex;
+    background: linear-gradient(133deg, #01bf8e, #017abf, #bc74f7, #d78bca);
+    background-size: 800% 800%;
+    
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+}
+
+.border-radius{
+
+    border-radius: 5px;
+}
+
+
+
+
+
+
+  
