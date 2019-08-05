@@ -245,6 +245,8 @@ p {
   width: 100vw;
   margin: 0 auto;
   border-bottom: 2px solid #F1F1F1;
+  position: fixed;
+  top: 0;
 }
 #nav h1 {
   font-size: 400%;
@@ -267,6 +269,7 @@ p {
 }
 .intro img:nth-child(1) {
   border-radius: 5px;
+  padding-top: 17%;
 }
 footer {
   color: #22283B;
