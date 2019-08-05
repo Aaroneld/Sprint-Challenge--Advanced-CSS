@@ -247,6 +247,7 @@ p {
   border-bottom: 2px solid #F1F1F1;
   position: fixed;
   top: 0;
+  opacity: 0.8;
 }
 #nav h1 {
   font-size: 400%;
