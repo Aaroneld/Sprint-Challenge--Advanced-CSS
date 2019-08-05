@@ -1,1 +1,25 @@
 // Mixins Here
+
+.button(@bg-color: @ebony-clay; @width: 28%; @padding: 3% 4%; @color: white; @txt-algn: center; @fnt-size: 175%; @fnt-weight: bold;) {
+
+background-color: @bg-color;
+width: @width;
+padding: @padding;
+color: @color;
+text-align: @txt-algn;
+font-size: @fnt-size;
+font-weight: @fnt-weight;
+.border-radius();
+
+}
+
+.display-bg{
+
+    display: flex;
+    background-color: @wild-sand;
+}
+
+.border-radius{
+
+    border-radius: 5px;
+}
