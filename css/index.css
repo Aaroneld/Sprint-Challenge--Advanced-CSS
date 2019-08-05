@@ -1,3 +1,74 @@
+@media (max-width: 500px) {
+  #nav h1 {
+    margin-bottom: 4% !important;
+  }
+}
+@media (max-width: 500px) {
+  #nav nav a {
+    padding: 0 4% !important;
+  }
+}
+@media (max-width: 500px) {
+  .intro img:nth-child(1) {
+    width: 100vw;
+  }
+}
+@media (max-width: 500px) {
+  .space-images {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .space-images .blast {
+    object-fit: contain;
+    min-width: 90vw;
+    margin: 4% 0 !important;
+  }
+}
+@media (max-width: 500px) {
+  .space-images .sky {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .space-images .launch {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .walk {
+    flex-flow: column-reverse;
+    width: 100vw;
+    padding: 2% 0 !important;
+    margin: 4% 0 0 0 !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .walk .walk-text {
+    min-width: 93.5vw;
+    margin: 4% 0 !important;
+  }
+}
+@media (max-width: 500px) {
+  .walk .walk-text .btn {
+    min-width: 93.5vw;
+    padding: 5% 0 !important;
+  }
+}
+@media (max-width: 500px) {
+  .walk .walk-img {
+    min-width: 90vw;
+    margin: 4% 0 !important;
+  }
+}
+@media (max-width: 500px) {
+  .walk .walk-img img {
+    object-fit: contain;
+  }
+}
 .display-bg {
   display: flex;
   background-color: #F6F6F6;
