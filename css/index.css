@@ -11,6 +11,7 @@
 @media (max-width: 500px) {
   .intro img:nth-child(1) {
     width: 100vw;
+    padding-top: 19.1% !important;
   }
 }
 @media (max-width: 500px) {
@@ -71,7 +72,44 @@
 }
 .display-bg {
   display: flex;
-  background-color: #F6F6F6;
+  background: linear-gradient(133deg, #01bf8e, #017abf, #bc74f7, #d78bca);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .border-radius {
   border-radius: 5px;
@@ -240,14 +278,51 @@ p {
 }
 #nav {
   display: flex;
-  background-color: #F6F6F6;
+  background: linear-gradient(133deg, #01bf8e, #017abf, #bc74f7, #d78bca);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
   flex-flow: column;
   width: 100vw;
   margin: 0 auto;
   border-bottom: 2px solid #F1F1F1;
   position: fixed;
   top: 0;
-  opacity: 0.8;
+  opacity: 0.5;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 #nav h1 {
   font-size: 400%;
@@ -256,9 +331,46 @@ p {
 }
 #nav nav {
   display: flex;
-  background-color: #F6F6F6;
+  background: linear-gradient(133deg, #01bf8e, #017abf, #bc74f7, #d78bca);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
   justify-content: center;
   margin-bottom: 2%;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 #nav nav a {
   text-decoration: none;
@@ -298,6 +410,60 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+  -webkit-animation: vibrate-2 0.2s linear infinite alternate forwards;
+  animation: vibrate-2 0.2s linear infinite alternate forwards;
+}
+@-webkit-keyframes vibrate-2 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  60% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@keyframes vibrate-2 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  60% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
 }
 .home .visit-planets {
   padding: 15px;

@@ -16,10 +16,38 @@ font-weight: @fnt-weight;
 .display-bg{
 
     display: flex;
-    background-color: @wild-sand;
+    background: linear-gradient(133deg, #01bf8e, #017abf, #bc74f7, #d78bca);
+    background-size: 800% 800%;
+    
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
 }
 
 .border-radius{
 
     border-radius: 5px;
 }
+
+
+
+
+
+
+  
